@@ -1,0 +1,50 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="styles.css">
+	<title>To-Do List v2.0 (OOJS)</title>
+</head>
+
+	<body>
+        <div class="search-container">
+            <h2 class="title">To-Do List v2.0</h2>
+            <!-- Alert Message -->
+            <p id="alert"></p>
+            
+            <input type="text" id="addItem" placeholder="Add task...">
+            <button class="addBtn">Add+</button>
+            <select class="filterSelect">
+                <option id="work" for="Work">Work</option>
+                <option id="work" for="Personal">Personal</option>
+            </select>
+            
+            <input type="text" id="search" placeholder="Search tasks...">
+            <button class="searchBtn">Search</button>
+        </div>
+        <div class="filter-container">
+            <label for="work" class="workLabel">Work</label>
+            <input type="radio" id="work" class="work">
+            <input type="radio" id="personal" class="personal">
+            <label for="personal" class="personalLabel">Personal</label>
+        </div>
+        
+
+        <div class="new-container">
+<!--
+            <div class="task">
+                <img src="media/basic_trashcan.svg" class="deleteBtn" fill="coral"> <a href="#" class="a">Do laundry</a><a href="#" class="dropDown">▼</a>
+            </div>
+            <div class="task">
+                <img src="media/basic_trashcan.svg" class="deleteBtn" fill="coral"><a href="#" class="a">Do something</a><a href="#" class="dropDown">▼</a>
+            </div>
+-->
+            
+        </div>
+        
+        
+    <script src="app.js"></script>
+</body>
+</html>
